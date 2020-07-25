@@ -9,8 +9,8 @@ from datetime import datetime
 from telebot.types import CallbackQuery, ReplyKeyboardRemove
 
 # перед запуском программы создайте telegram-бота
-# раскомментируйте следующую строку и внестите в значение TOKEN токен для доступа к HTTP API
-# TOKEN = ''
+# внестите в значение TOKEN токен для доступа к HTTP API
+TOKEN = ''
 
 bot = telebot.TeleBot(TOKEN)
 
