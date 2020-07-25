@@ -6,7 +6,7 @@ from lxml import etree
 from telebot import types
 from bs4 import BeautifulSoup
 from datetime import datetime
-from telebot.types import CallbackQuery, ReplyKeyboardRemove
+from telebot.types import CallbackQuery
 
 # перед запуском программы создайте telegram-бота
 # внестите в значение TOKEN токен для доступа к HTTP API
