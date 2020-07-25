@@ -12,7 +12,7 @@ from telebot.types import CallbackQuery, ReplyKeyboardRemove
 # раскомментируйте следующую строку и внестите в значение TOKEN токен для доступа к HTTP API
 # TOKEN = ''
 
-bot = telebot.TeleBot(data.TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 
 # создание календаря с помощью библиотеки telebot_calendar
