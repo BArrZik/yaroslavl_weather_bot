@@ -9,7 +9,7 @@
 
 Библиотеки можно установить с помощью:
 ```
-pip install [package-name==version]
+pip3 install [package-name==version]
 ```
 
 ## Преднастройка и запуск
